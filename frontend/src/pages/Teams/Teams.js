@@ -21,9 +21,7 @@ const Teams = () => {
     const getTeams = async () => {
       try {
         setLoading(true);
-        const res = await fetch(
-          `http://localhost:5000/api/teams?sportId=${id}`
-        );
+        const res = await fetch(`/api/teams?sportId=${id}`);
         const data = await res.json();
         setTeams(data.teams);
         toast.success("Teams fetched!");
@@ -39,7 +37,6 @@ const Teams = () => {
   }, []);
 
   const viewPlayers = (id, index) => {
-    // http://localhost:5000/api/players?teamId=42
     navigate(`/players/${id}`, { state: { teamName: teams[index].name } });
   };
 

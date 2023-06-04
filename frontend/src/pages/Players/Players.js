@@ -27,9 +27,7 @@ const Players = () => {
     const getPlayers = async () => {
       try {
         setLoading(true);
-        const res = await fetch(
-          `http://localhost:5000/api/players?teamId=${id}`
-        );
+        const res = await fetch(`/api/players?teamId=${id}`);
 
         const data = await res.json();
 

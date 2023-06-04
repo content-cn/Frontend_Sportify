@@ -17,7 +17,7 @@ const Home = () => {
     const getSports = async () => {
       try {
         setLoading(true);
-        const res = await fetch("http://localhost:5000/api/sports");
+        const res = await fetch("/api/sports");
         const data = await res.json();
         setSports(data.sports);
         toast.success("Sports fetched!");

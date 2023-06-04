@@ -15,7 +15,7 @@ export const searchPlayers = createAsyncThunk(
     const state = getState();
 
     const res = await fetch(
-      `http://localhost:5000/api/players/search?searchTerm=${searchQuery}&page=${state.player.page}`
+      `/api/players/search?searchTerm=${searchQuery}&page=${state.player.page}`
     );
 
     return await res.json();
@@ -27,7 +27,7 @@ export const showNextPage = createAsyncThunk(
   async (searchQuery, { getState }) => {
     const state = getState();
     const res = await fetch(
-      `http://localhost:5000/api/players/search?searchTerm=${searchQuery}&page=${
+      `/api/players/search?searchTerm=${searchQuery}&page=${
         state.player.page + 1
       }`
     );
@@ -41,7 +41,7 @@ export const showPreviousPage = createAsyncThunk(
   async (searchQuery, { getState }) => {
     const state = getState();
     const res = await fetch(
-      `http://localhost:5000/api/players/search?searchTerm=${searchQuery}&page=${
+      `/api/players/search?searchTerm=${searchQuery}&page=${
         state.player.page - 1
       }`
     );
