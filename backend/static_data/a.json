@@ -1,0 +1,570 @@
+{
+  "sports": [
+    {
+      "name": "Football",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/FIFA_World_Cup_2018_logo.svg/1200px-FIFA_World_Cup_2018_logo.svg.png",
+      "id": 1
+    },
+    {
+      "name": "Basketball",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NBA_logo.svg/1200px-NBA_logo.svg.png",
+      "id": 2
+    },
+    {
+      "name": "Baseball",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/MLB_logo.svg/1200px-MLB_logo.svg.png",
+      "id": 3
+    },
+    {
+      "name": "American Football",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NFL_shield.svg/1200px-NFL_shield.svg.png",
+      "id": 4
+    },
+    {
+      "name": "Hockey",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/NHL_logo.svg/1200px-NHL_logo.svg.png",
+      "id": 5
+    },
+    {
+      "name": "Rugby",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Rugby_union_logo.svg/1200px-Rugby_union_logo.svg.png",
+      "id": 8
+    },
+    {
+      "name": "Cricket",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cricket_logo.svg/1200px-Cricket_logo.svg.png",
+      "id": 9
+    }
+  ],
+  "teams": [
+    {
+      "name": "Manchester City",
+      "city": "Manchester",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png",
+      "country": "England",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/England_national_football_team_badge.svg/1200px-England_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 1
+    },
+    {
+      "name": "Manchester United",
+      "city": "Manchester",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Manchester_United_FC_badge.svg/1200px-Manchester_United_FC_badge.svg.png",
+      "country": "England",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/England_national_football_team_badge.svg/1200px-England_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 2
+    },
+    {
+      "name": "Liverpool",
+      "city": "Liverpool",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Liverpool_FC_badge.svg/1200px-Liverpool_FC_badge.svg.png",
+      "country": "England",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/England_national_football_team_badge.svg/1200px-England_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 3
+    },
+    {
+      "name": "Chelsea",
+      "city": "London",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chelsea_FC_badge.svg/1200px-Chelsea_FC_badge.svg.png",
+      "country": "England",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/England_national_football_team_badge.svg/1200px-England_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 4
+    },
+    {
+      "name": "Arsenal",
+      "city": "London",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arsenal_FC_badge.svg/1200px-Arsenal_FC_badge.svg.png",
+      "country": "England",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/England_national_football_team_badge.svg/1200px-England_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 5
+    },
+    {
+      "name": "Tottenham Hotspur",
+      "city": "London",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Tottenham_Hotspur_FC_badge.svg/1200px-Tottenham_Hotspur_FC_badge.svg.png",
+      "country": "England",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/England_national_football_team_badge.svg/1200px-England_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 6
+    },
+    {
+      "name": "Real Madrid",
+      "city": "Madrid",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Real_Madrid_CF_logo.svg/1200px-Real_Madrid_CF_logo.svg.png",
+      "country": "Spain",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Spain_national_football_team_badge.svg/1200px-Spain_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 7
+    },
+    {
+      "name": "Atlético Madrid",
+      "city": "Madrid",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Atl%C3%A9tico_Madrid_badge.svg/1200px-Atl%C3%A9tico_Madrid_badge.svg.png",
+      "country": "Spain",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Spain_national_football_team_badge.svg/1200px-Spain_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 8
+    },
+    {
+      "name": "Juventus",
+      "city": "Turin",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Juventus_FC_badge.svg/1200px-Juventus_FC_badge.svg.png",
+      "country": "Italy",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Italy_national_football_team_badge.svg/1200px-Italy_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 9
+    },
+    {
+      "name": "Bayern Munich",
+      "city": "Munich",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/FC_Bayern_Munich_logo.svg/1200px-FC_Bayern_Munich_logo.svg.png",
+      "country": "Germany",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Germany_national_football_team_badge.svg/1200px-Germany_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 10
+    },
+    {
+      "name": "Paris Saint-Germain",
+      "city": "Paris",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Paris_Saint-Germain_F.C._badge.svg/1200px-Paris_Saint-Germain_F.C._badge.svg.png",
+      "country": "France",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/France_national_football_team_badge.svg/1200px-France_national_football_team_badge.svg.png",
+      "sportId": 1,
+      "id": 11
+    },
+    {
+      "teamId": 2,
+      "name": "Boston Celtics",
+      "city": "Boston",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Boston_Celtics_logo.svg/1200px-Boston_Celtics_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 1
+    },
+    {
+      "teamId": 3,
+      "name": "Los Angeles Lakers",
+      "city": "Los Angeles",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Los_Angeles_Lakers_logo.svg/1200px-Los_Angeles_Lakers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 2
+    },
+    {
+      "teamId": 4,
+      "name": "Miami Heat",
+      "city": "Miami",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Miami_Heat_logo.svg/1200px-Miami_Heat_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 3
+    },
+    {
+      "teamId": 5,
+      "name": "Milwaukee Bucks",
+      "city": "Milwaukee",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Milwaukee_Bucks_logo.svg/1200px-Milwaukee_Bucks_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 4
+    },
+    {
+      "teamId": 6,
+      "name": "Philadelphia 76ers",
+      "city": "Philadelphia",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Philadelphia_76ers_logo.svg/1200px-Philadelphia_76ers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 5
+    },
+    {
+      "teamId": 8,
+      "name": "Denver Nuggets",
+      "city": "Denver",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Denver_Nuggets_logo.svg/1200px-Denver_Nuggets_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 6
+    },
+    {
+      "teamId": 9,
+      "name": "Golden State Warriors",
+      "city": "Oakland",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Golden_State_Warriors_logo.svg/1200px-Golden_State_Warriors_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 7
+    },
+    {
+      "teamId": 10,
+      "name": "New York Knicks",
+      "city": "New York",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/New_York_Knicks_logo.svg/1200px-New_York_Knicks_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 8
+    },
+    {
+      "teamId": 11,
+      "name": "Oklahoma City Thunder",
+      "city": "Oklahoma City",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Oklahoma_City_Thunder_logo.svg/1200px-Oklahoma_City_Thunder_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 9
+    },
+    {
+      "teamId": 12,
+      "name": "Utah Jazz",
+      "city": "Salt Lake City",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Utah_Jazz_logo.svg/1200px-Utah_Jazz_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 2,
+      "id": 10
+    },
+    {
+      "teamId": 3,
+      "name": "New York Yankees",
+      "city": "New York",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/New_York_Yankees_logo.svg/1200px-New_York_Yankees_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 1
+    },
+    {
+      "teamId": 4,
+      "name": "Boston Red Sox",
+      "city": "Boston",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Boston_Red_Sox_logo.svg/1200px-Boston_Red_Sox_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 2
+    },
+    {
+      "teamId": 5,
+      "name": "Chicago Cubs",
+      "city": "Chicago",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chicago_Cubs_logo.svg/1200px-Chicago_Cubs_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 3
+    },
+    {
+      "teamId": 6,
+      "name": "Los Angeles Dodgers",
+      "city": "Los Angeles",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Los_Angeles_Dodgers_logo.svg/1200px-Los_Angeles_Dodgers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 4
+    },
+    {
+      "teamId": 7,
+      "name": "St. Louis Cardinals",
+      "city": "St. Louis",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/St._Louis_Cardinals_logo.svg/1200px-St._Louis_Cardinals_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 5
+    },
+    {
+      "teamId": 8,
+      "name": "New York Mets",
+      "city": "New York",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/New_York_Mets_logo.svg/1200px-New_York_Mets_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 6
+    },
+    {
+      "teamId": 9,
+      "name": "Philadelphia Phillies",
+      "city": "Philadelphia",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Philadelphia_Phillies_logo.svg/1200px-Philadelphia_Phillies_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 7
+    },
+    {
+      "teamId": 10,
+      "name": "Pittsburgh Pirates",
+      "city": "Pittsburgh",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pittsburgh_Pirates_logo.svg/1200px-Pittsburgh_Pirates_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 8
+    },
+    {
+      "teamId": 11,
+      "name": "Cincinnati Reds",
+      "city": "Cincinnati",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Cincinnati_Reds_logo.svg/1200px-Cincinnati_Reds_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 9
+    },
+    {
+      "teamId": 12,
+      "name": "Milwaukee Brewers",
+      "city": "Milwaukee",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Milwaukee_Brewers_logo.svg/1200px-Milwaukee_Brewers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 3,
+      "id": 10
+    },
+    {
+      "teamId": 4,
+      "name": "Dallas Cowboys",
+      "city": "Dallas",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Dallas_Cowboys_logo.svg/1200px-Dallas_Cowboys_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 1
+    },
+    {
+      "teamId": 5,
+      "name": "New England Patriots",
+      "city": "Foxborough",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/New_England_Patriots_logo.svg/1200px-New_England_Patriots_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 2
+    },
+    {
+      "teamId": 6,
+      "name": "Pittsburgh Steelers",
+      "city": "Pittsburgh",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pittsburgh_Steelers_logo.svg/1200px-Pittsburgh_Steelers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 3
+    },
+    {
+      "teamId": 7,
+      "name": "Green Bay Packers",
+      "city": "Green Bay",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Green_Bay_Packers_logo.svg/1200px-Green_Bay_Packers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 4
+    },
+    {
+      "teamId": 8,
+      "name": "Baltimore Ravens",
+      "city": "Baltimore",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Baltimore_Ravens_logo.svg/1200px-Baltimore_Ravens_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 5
+    },
+    {
+      "teamId": 9,
+      "name": "San Francisco 49ers",
+      "city": "Santa Clara",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/San_Francisco_49ers_logo.svg/1200px-San_Francisco_49ers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 6
+    },
+    {
+      "teamId": 10,
+      "name": "Seattle Seahawks",
+      "city": "Seattle",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Seattle_Seahawks_logo.svg/1200px-Seattle_Seahawks_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 7
+    },
+    {
+      "teamId": 11,
+      "name": "Kansas City Chiefs",
+      "city": "Kansas City",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Kansas_City_Chiefs_logo.svg/1200px-Kansas_City_Chiefs_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 8
+    },
+    {
+      "teamId": 12,
+      "name": "Buffalo Bills",
+      "city": "Buffalo",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Buffalo_Bills_logo.svg/1200px-Buffalo_Bills_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 9
+    },
+    {
+      "teamId": 13,
+      "name": "Tennessee Titans",
+      "city": "Nashville",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Tennessee_Titans_logo.svg/1200px-Tennessee_Titans_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 4,
+      "id": 10
+    },
+    {
+      "teamId": 14,
+      "name": "New York Islanders",
+      "city": "Long Island",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/New_York_Islanders_logo.svg/1200px-New_York_Islanders_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 5,
+      "id": 11
+    },
+    {
+      "teamId": 15,
+      "name": "New Jersey Devils",
+      "city": "New Jersey",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/New_Jersey_Devils_logo.svg/1200px-New_Jersey_Devils_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 5,
+      "id": 12
+    },
+    {
+      "teamId": 16,
+      "name": "Philadelphia Flyers",
+      "city": "Philadelphia",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Philadelphia_Flyers_logo.svg/1200px-Philadelphia_Flyers_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 5,
+      "id": 13
+    },
+    {
+      "teamId": 17,
+      "name": "Pittsburgh Penguins",
+      "city": "Pittsburgh",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pittsburgh_Penguins_logo.svg/1200px-Pittsburgh_Penguins_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 5,
+      "id": 14
+    },
+    {
+      "teamId": 18,
+      "name": "Washington Capitals",
+      "city": "Washington, D.C.",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Washington_Capitals_logo.svg/1200px-Washington_Capitals_logo.svg.png",
+      "country": "United States",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png",
+      "sportId": 5,
+      "id": 15
+    },
+    {
+      "id": 21,
+      "name": "India",
+      "city": "Mumbai",
+      "country": "India",
+      "sportId": 9
+    },
+    {
+      "id": 22,
+      "name": "Australia",
+      "city": "Sydney",
+      "country": "Australia",
+      "sportId": 9
+    },
+    {
+      "id": 23,
+      "name": "England",
+      "city": "London",
+      "country": "England",
+      "sportId": 9
+    },
+    {
+      "id": 24,
+      "name": "Pakistan",
+      "city": "Lahore",
+      "country": "Pakistan",
+      "sportId": 9
+    },
+    {
+      "id": 25,
+      "name": "Sri Lanka",
+      "city": "Colombo",
+      "country": "Sri Lanka",
+      "sportId": 9
+    },
+    {
+      "id": 26,
+      "name": "South Africa",
+      "city": "Cape Town",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/South_Africa_cricket_team_logo.svg/300px-South_Africa_cricket_team_logo.svg.png",
+      "country": "South Africa",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_South_Africa.svg/300px-Flag_of_South_Africa.svg.png",
+      "sportId": 9
+    },
+    {
+      "id": 27,
+      "name": "West Indies",
+      "city": "Kingston",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/West_Indies_cricket_team_logo.svg/300px-West_Indies_cricket_team_logo.svg.png",
+      "country": "West Indies",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_West_Indies.svg/300px-Flag_of_the_West_Indies.svg.png",
+      "sportId": 9
+    },
+    {
+      "id": 28,
+      "name": "New Zealand",
+      "city": "Auckland",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/New_Zealand_cricket_team_logo.svg/300px-New_Zealand_cricket_team_logo.svg.png",
+      "country": "New Zealand",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_New_Zealand.svg/300px-Flag_of_New_Zealand.svg.png",
+      "sportId": 9
+    },
+    {
+      "id": 29,
+      "name": "Bangladesh",
+      "city": "Dhaka",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Bangladesh_cricket_team_logo.svg/300px-Bangladesh_cricket_team_logo.svg.png",
+      "country": "Bangladesh",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_Bangladesh.svg/300px-Flag_of_Bangladesh.svg.png",
+      "sportId": 9
+    },
+    {
+      "id": 30,
+      "name": "Zimbabwe",
+      "city": "Harare",
+      "teamLogoImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Zimbabwe_cricket_team_logo.svg/300px-Zimbabwe_cricket_team_logo.svg.png",
+      "country": "Zimbabwe",
+      "countryImage": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_Zimbabwe.svg/300px-Flag_of_Zimbabwe.svg.png",
+      "sportId": 9
+    }
+  ]
+}
