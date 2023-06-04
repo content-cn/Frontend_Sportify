@@ -78,20 +78,21 @@ const Navbar = () => {
                   Favorites
                 </NavLink>
               </li>
-              <li className="nav-item active">
-                <NavLink
-                  activeclassname="active-links"
-                  to="/search"
-                  className="nav-links"
-                >
-                  <span>
-                    <FaSearch size={25} style={{ marginRight: "5px" }} />{" "}
-                  </span>
-                  Players
-                </NavLink>
-              </li>
             </>
           )}
+
+          <li className="nav-item active">
+            <NavLink
+              activeclassname="active-links"
+              to="/search"
+              className="nav-links"
+            >
+              <span>
+                <FaSearch size={25} style={{ marginRight: "5px" }} />{" "}
+              </span>
+              Players
+            </NavLink>
+          </li>
 
           <li className="nav-item active">
             {isAuthenticated ? (

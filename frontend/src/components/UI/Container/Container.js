@@ -14,11 +14,12 @@ const Container = ({ children, loading, heading }) => {
       ) : (
         <>
           <div className={classes.heading}>
-            {heading.toLowerCase() !== "sports" && (
-              <div>
-                <BiArrowBack size={30} onClick={() => navigate(-1)} />
-              </div>
-            )}
+            {heading.toLowerCase() !== "sports" &&
+              heading.toLowerCase() !== "search players" && (
+                <div>
+                  <BiArrowBack size={30} onClick={() => navigate(-1)} />
+                </div>
+              )}
             <h1>{heading}</h1>
           </div>
           {children}
