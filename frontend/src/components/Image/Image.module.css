@@ -1,0 +1,26 @@
+.imgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 70%;
+}
+
+.imgContainer img {
+  object-fit: cover;
+  height: 100%;
+  width: 9rem;
+  border-right: 2px solid #0d2c54;
+}
+
+.imgContainer > div {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #0d2c54;
+  font-weight: 600;
+}
+
+.imgContainer p {
+  text-align: right;
+  font-size: 0.75rem;
+}
